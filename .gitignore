@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/YaelMews.Model/bin/Debug/net6.0
+/YaelMews.Model/obj
+/YaelNews/bin/Debug/net6.0
+/YaelNews/obj
+/YaelNews.DAL/bin/Debug/net6.0
+/YaelNews.DAL/obj
+/YaelNews.Migrations/bin/Debug/net6.0
+/YaelNews.Migrations/obj
