@@ -7,9 +7,9 @@ namespace YaelMews.Model
         [Key]
         public Guid ID { get; set; }
         [Required]
-        public string Title { get; set; }
+        public string Title { get; set; } = null!;
         [Required]
-        public string Content { get; set; }
+        public string Content { get; set; } = null!;
         [Required]
         public Guid SourceID { get; set; }
         [Required]

@@ -11,3 +11,7 @@
 /YaelNews.DAL/obj
 /YaelNews.Migrations/bin/Debug/net6.0
 /YaelNews.Migrations/obj
+/YaelNews.DbModel/bin/Debug/net6.0
+/YaelNews.DbModel/obj
+/YaelNews.Services/bin/Debug/net6.0
+/YaelNews.Services/obj
