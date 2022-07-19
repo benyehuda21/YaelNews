@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YaelMews.Model\YaelMews.Model.csproj" />
+    <ProjectReference Include="..\YaelNews.Contracts\YaelNews.Contracts.csproj" />
     <ProjectReference Include="..\YaelNews.DAL\YaelNews.DAL.csproj" />
     <ProjectReference Include="..\YaelNews.Migrations\YaelNews.Migrations.csproj" />
     <ProjectReference Include="..\YaelNews.Services\YaelNews.Services.csproj" />

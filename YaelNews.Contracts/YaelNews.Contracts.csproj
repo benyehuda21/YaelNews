@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\YaelNews.Contracts\YaelNews.Contracts.csproj" />
-    <ProjectReference Include="..\YaelNews.DAL\YaelNews.DAL.csproj" />
     <ProjectReference Include="..\YaelNews.DbModel\YaelNews.DbModel.csproj" />
   </ItemGroup>
 

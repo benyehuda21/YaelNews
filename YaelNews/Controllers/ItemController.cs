@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using YaelMews.Model;
+using YaelNews.Contracts;
 
 namespace YaelNews.Controllers
 {
@@ -10,28 +10,30 @@ namespace YaelNews.Controllers
     [ApiController]
     public class ItemController : ControllerBase
     {
-        //public ItemController()
-        //{
+        private IDataService _dataService;
 
-        //}
+        public ItemController(IDataService dataService)
+        {
+            _dataService = dataService;
+        }
 
-        //[HttpGet]
-        //public async Task<List<Item>> Get()
-        //{
-        //    // returm
-        //}
+        [HttpGet]
+        public async Task<List<Item>> Get(int pageSize, int pageIndex)
+        {
+            var items = await _dataService.GetItems(pageSize, pageIndex);
+            return Ok(new List<Item>());
+        }
 
-        //[HttpPut]
-        //public async Task Update(Item item)
-        //{
+        [HttpPut]
+        public async Task Update(Item item)
+        {
 
-        //}
+        }
 
-        //[HttpPost]
-        //public async Task AddNewItem(Item item)
-        //{
+        [HttpPost]
+        public async Task AddNewItem(Item item)
+        {
 
-        //}
-
+        }
     }
 }

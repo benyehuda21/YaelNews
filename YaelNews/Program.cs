@@ -1,4 +1,13 @@
+using YaelNews.Contracts;
+using YaelNews.DAL;
+using YaelNews.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContextFactory<YaelNewsContext>(options =>
+{
+
+});
+builder.Services.AddScoped<IDataService, DataService>();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

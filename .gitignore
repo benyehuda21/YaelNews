@@ -15,3 +15,5 @@
 /YaelNews.DbModel/obj
 /YaelNews.Services/bin/Debug/net6.0
 /YaelNews.Services/obj
+/YaelNews.Contracts/bin/Debug/net6.0
+/YaelNews.Contracts/obj
